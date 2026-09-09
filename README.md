@@ -1,7 +1,7 @@
 Core Tool (with GUI)
 
 ## Folder contents
-- `stego_engine.py` - the core LSB hide/extract engine (Task 1 deliverable)
+- `stego_engine.py` - the core LSB hide/extract engine 
 - `gui_app.py` - visual interface: load images, hide/extract, see histograms + amplified diff
 - `demo.py` - simple command-line version (no GUI) if you just want a quick test
 - `zombie_cover.jpg` - sample cover image
@@ -35,8 +35,3 @@ A window will open with 4 buttons across the top:
 python demo.py
 ```
 This does the same hide -> extract -> compare cycle without any window, just printed text output - useful if you only need a quick terminal screenshot.
-
-## Notes for the report
-- The "Amplified Difference" panel is good evidence for the **visual quality comparison** part of the rubric - it proves the change is real but invisible to the naked eye.
-- The histogram panel directly covers the **histogram comparison** requirement.
-- Use the status bar at the bottom of the GUI (shows exact byte sizes) for the **file size analysis** section.
